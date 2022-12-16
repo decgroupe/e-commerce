@@ -8,7 +8,7 @@ from odoo.addons.http_routing.models.ir_http import slug
 
 
 class ProductStyle(models.Model):
-    _inherit = "product.style"
+    _inherit = "product.ribbon"
 
     html_content = fields.Text(
         string="HTML Content",
